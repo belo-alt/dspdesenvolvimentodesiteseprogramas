@@ -1,3 +1,4 @@
+
 @charset "utf-8";
 
 @font-face {
@@ -27,6 +28,9 @@ img{
 body {
     height: 97vh;
     background-color: var(--cor0);
+    width: 100vh;
+    height: 100vw;
+    position: static;
 }
 main {
     
