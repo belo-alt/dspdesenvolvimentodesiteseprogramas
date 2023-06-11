@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Android';
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+:root {  /* Raiz da arvore do doc onde coloco as variáveis */
+    --cor0: #34EDE1;
+    --cor1: #36D0F7;
+    --cor2: #3D94E0;
+    --cor3: #366BF7;
+    --cor4: #3435ED;
+    --cor5: #1228EF;
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'Android', cursive;
+}
+
+img{
+    height: 250px;
+    width: 345px;
+    border-radius: 5px;
+}
+
+body {
+    height: 97vh;
+    background-color: var(--cor0);
+}
+main {
+    
+    text-align: justify;
+    background-color: white;
+    max-width: 400px; /*adpta o conteudo para rolar por cima da img*/
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px 3px 0px 3px;
+}
+h1 {
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+    color:var(--cor5);
+}
+h2 {
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+    color: var(--cor5);
+}
+h3 {
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+    color: var(--cor5);
+}
+p {
+    font-family: var(--fonte-padrao);
+}
+.preco {
+    background-color: var(--cor0);
+    padding: 0px 5px 0px 5px;
+    margin: 10px 20px 5px 20px;
+    border: 2px solid var(--cor0);
+    border-radius: 10px;
+}
+.cabecalho {
+    background-color: white;
+    padding: 0px 5px 0px 5px;
+    margin: 5px 20px 0px 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+nav {
+    padding: 5px 4px 4px 5px;
+    border-radius: 2px;
+}
+nav > a {
+    text-decoration: none;
+    color: var(--cor5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow: 2px 2px 1px 1px black;;
+    padding: 5px;
+    border: var(--cor4);
+    border-radius: 4px;
+    background-color: var(--cor0);
+}
+a:hover {
+    background-color: blue;
+    color: white;
+}
+article {
+    border: 2px solid var(--cor0);
+    border-radius: 10px;
+    padding: 0px 5px 0px 5px;
+    margin: 0px 20px 0px 20px;
+    background-color: var(--cor0);
+}
+footer {
+    text-align: justify;
+    background-color: white;
+    max-width: 400px; /*adpta o conteudo para rolar por cima da img*/
+    padding: 0px 10px 0px 10px;
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 10px;
+}
