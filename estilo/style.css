@@ -20,16 +20,16 @@
 }
 
 img{
-    height: 350px;
-    width: 535px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
     border-radius: 5px;
 }
 
 body {
-    height: 97vh;
     background-color: var(--cor0);
-    width: 100vh;
-    height: 100vw;
+    width: 100vw;
+    height: 97vh;
     position: static;
 }
 main {
