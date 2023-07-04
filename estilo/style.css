@@ -86,6 +86,7 @@ nav {
     border-radius: 2px;
 }
 nav > a {
+    display: inline;
     text-decoration: none;
     color: var(--cor5);
     font-family: Arial, Helvetica, sans-serif;
