@@ -66,6 +66,7 @@ h3 {
 p {
     font-family: var(--fonte-padrao);
 }
+
 .cor {
     background-color: var(--cor0);
     padding: 0px 5px 0px 5px;
@@ -79,6 +80,13 @@ p {
     margin: 5px 20px 0px 20px;
     border: 2px solid white;
     border-radius: 10px;
+}
+
+iframe {
+    text-align: center;
+    height: 100%;
+    width: 97%;
+
 }
 
 nav {
