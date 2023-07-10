@@ -7,7 +7,7 @@
     <title>Fale conosco</title>
     <link rel="shortcut icon" href="imagens/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="estilo/style.css">
-    <script language="php" src="cadastro.php"></script>
+    <script src="cadastro.js"></script>
 </head>
 <main>
     <body>
@@ -27,7 +27,7 @@
             
             <h3>Fale conosco!</h3>
             <p>Preencha o formulário abaixo e nos conte como podemos ajuda-lo.</p>
-                <form action="cadastro.php" method="post" name="form" autocomplete="on">
+                <form action="https://formsubmit.co/ajax/beloadm43@gmail.com" method="post" name="form" autocomplete="on" data-form>
                     <fieldset>
                         <legend>Dados Pessoais</legend>
                         <p>
@@ -39,12 +39,8 @@
                             <input type="email" name="email" id="iemail" autocomplete="email" required>
                         </p>
                         <p>
-                            <label for="assunto">Assunto:</label>
-                            <input type="text" name="txt" id="itxt">
-                        </p>
-                        <p>
-                            <label for="mensagem">Mensagem:</label>
-                            <input type="text" name="mensagem" id="imensagem">
+                            <textarea name="menssagem" id="imensagem" cols="30" rows="10"></textarea>
+                            <button type="submit" data-button>Enviar</button>
                         </p>
                         <!--<p>
                             <label for="itelefone">Telefone:</label>
