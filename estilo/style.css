@@ -119,8 +119,8 @@ footer {
     text-align: center;
     background-color: white;
     max-width: 400px; /*adpta o conteudo para rolar por cima da img*/
-    padding: 1px;
+    padding: 1px 0px 1px 0px;
     margin: auto;
-    border: 5px 5px solid white;
+    border: 2px 5px 2px 5px solid white;
     border-radius: 5px;
 }
