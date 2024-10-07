@@ -124,3 +124,23 @@ footer {
     border: 2px 5px 2px 5px solid white;
     border-radius: 5px;
 }
+
+.whatsapp-button {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+}
+
+.whatsapp-button:hover {
+    background-color: #20b354;
+}
+
+.central {
+    text-align: center;
+}
